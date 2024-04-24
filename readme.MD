@@ -1,14 +1,17 @@
 # Remix + Kinde demo on Cloudflare workers
 
-This repository presents a broken demo of using Remix + Kinde on Cloudflare (based on remix SDK).
+This repository presents an error demo of using Remix + Kinde on Cloudflare (based on remix SDK).
 
 Additionally, a working demo using a fork of the remix sdk is available to showcase how Remix + Kinde can work on Cloudflare.
 
 Both demos assume that you have a kinde account + business setup with correct allowed URLS (callback/logout => port 5173 on localhost for remix dev server).
 
-## Guide - Error demo (@kinde-oss/kinde-remix-sdk package)
+## Guide - Error demo 
+Package: @kinde-oss/kinde-remix-sdk package
 
-This is a guide for starting the error demo project (remix-kinde-error-demo).
+Folder: remix-kinde-error-demo
+
+This is a guide for starting the error demo project.
 
 ### Setup
 
@@ -51,11 +54,12 @@ Because NODE.js is not supported by default, the package "remix/node" causes iss
 
 Instead "remix/cloudflare" can be used to avoid these compile errors.
 
-## Guide - Working demo (custom package: kinde-remix-cloudflare-sdk)
+## Guide - Working demo 
+Package: kinde-remix-cloudflare-sdk (Package fork: https://github.com/Konstantin-tr/kinde-remix-cloudflare-sdk)
 
-This is a guide for starting the working demo project using the custom sdk package (remix-kinde-demo-custom-package).
+Folder: remix-kinde-demo-custom-package
 
-(Package fork: https://github.com/Konstantin-tr/kinde-remix-cloudflare-sdk)
+This is a guide for starting the working demo project using the custom sdk package.
 
 ### Setup
 
