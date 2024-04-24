@@ -73,7 +73,5 @@ The following steps show the behavior in preview mode (compiled and running on l
 1. Start preview mode with `npm run preview`
 
 Result:
-The remix-site will build but the CF worker will not compile.
-The crypto and steam package will not be found because CF workers by default do not use NODE.js as the runtime (There is a workaround but it requires extra configuration).
-Because NODE.js is not supported by default, the package "remix/node" causes issues.
-Instead "remix/cloudflare" can be used to avoid these compile errors.
+The remix-site will build and the CF worker will compile correctly.
+You can test the app locally in preview mode to see the same results as in dev mode.
