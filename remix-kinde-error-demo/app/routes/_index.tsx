@@ -20,22 +20,29 @@ export async function loader({ context, request }: LoaderFunctionArgs) {
   // This object contains the actual environement VARS
   const env = context.cloudflare.env;
 
-  return json({ url: env.KINDE_ISSUER_URL, isAuthenticated: !!user });
+  return json({
+    url: env.KINDE_ISSUER_URL,
+    isAuthenticated: !!user,
+    userId: user?.id,
+  });
 }
 
 export default function Index() {
-  const { url, isAuthenticated } = useLoaderData<typeof loader>();
+  const { url, isAuthenticated, userId } = useLoaderData<typeof loader>();
 
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1>Kinde + Remix Error Demo on Cloudflare</h1>
       <h2>Kinde Issuer URL: {url}</h2>
+      {isAuthenticated ? <h3>Current User ID: {userId}</h3> : <></>}
       <div>
-        <span>This text is public.</span>
+        <span>This text is visible for everyone!</span>
       </div>
       {isAuthenticated ? (
         <div>
-          <span>This text is private.</span>
+          <span>
+            You are logged in! <Link to="/kinde-auth/logout">Logout</Link>
+          </span>
         </div>
       ) : (
         <div>

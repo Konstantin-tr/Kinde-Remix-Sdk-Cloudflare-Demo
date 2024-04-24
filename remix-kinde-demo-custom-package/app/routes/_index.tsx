@@ -47,11 +47,13 @@ export default function Index() {
       <h2>Kinde Issuer URL: {url}</h2>
       {isAuthenticated ? <h3>Current User ID: {userId}</h3> : <></>}
       <div>
-        <span>This text is public.</span>
+        <span>This text is visible for everyone!</span>
       </div>
       {isAuthenticated ? (
         <div>
-          <span>This text is private.</span>
+          <span>
+            You are logged in! <Link to="/kinde-auth/logout">Logout</Link>
+          </span>
         </div>
       ) : (
         <div>

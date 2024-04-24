@@ -63,10 +63,8 @@ The following steps show the behavior in development mode.
 3. Click Login or Register
 
 Result:
-You will receive an error (URL undefined).
-The reason for this is that Kinde reads process.env but Cloudflare Workers do not use process.env.
-Instead Cloudflare Workers use a context object containing the environment variables.
-See /app/routes/\_index.tsx for usage.
+You will be able to register/login correctly.
+After authentication, you can see the ID of your user and the option to logout.
 
 ### Preview Mode
 
