@@ -23,7 +23,7 @@ The following steps are necessary to setup the demo.
 
 ### Dev Mode
 
-The following steps show the behavior in development mode.
+The following steps show the behavior in development mode:
 
 1. Start app locally with `npm run dev`
 2. View Index page
@@ -37,7 +37,7 @@ Result:
 
 ### Preview Mode
 
-The following steps show the behavior in preview mode (compiled and running on local CF worker runtime).
+The following steps show the behavior in preview mode (compiled and running on local CF worker runtime):
 
 1. Start preview mode with `npm run preview`
 
@@ -64,21 +64,19 @@ The following steps are necessary to setup the demo.
 
 ### Dev Mode
 
-The following steps show the behavior in development mode.
+The following steps show the behavior in development mode:
 
 1. Start app locally with `npm run dev`
 2. View Index page
 3. Click Login or Register
 
 Result:
-
-You will be able to register/login correctly.
-
-After authentication, you can see the ID of your user and the option to logout.
+- You will be able to register/login correctly.
+- After authentication, you can see the ID of your user and the option to logout.
 
 ### Preview Mode
 
-The following steps show the behavior in preview mode (compiled and running on local CF worker runtime).
+The following steps show the behavior in preview mode (compiled and running on local CF worker runtime):
 
 1. Start preview mode with `npm run preview`
 
