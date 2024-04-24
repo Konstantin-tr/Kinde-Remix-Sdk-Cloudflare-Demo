@@ -45,6 +45,7 @@ Instead "remix/cloudflare" can be used to avoid these compile errors.
 ## Guide - Working demo (custom package: kinde-remix-cloudflare-sdk)
 
 This is a guide for starting the working demo project using the custom sdk package (remix-kinde-demo-custom-package).
+(Package fork: https://github.com/Konstantin-tr/kinde-remix-cloudflare-sdk)
 
 ### Setup
 
