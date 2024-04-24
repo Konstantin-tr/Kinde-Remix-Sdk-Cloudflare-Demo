@@ -7,9 +7,9 @@ Additionally, a working demo using a fork of the remix sdk is available to showc
 Both demos assume that you have a kinde account + business setup with correct allowed URLS (callback/logout => port 5173 on localhost for remix dev server).
 
 ## Guide - Error demo 
-Package: @kinde-oss/kinde-remix-sdk package
-
-Folder: remix-kinde-error-demo
+| Package      | Folder |
+| ----------- | ----------- |
+| @kinde-oss/kinde-remix-sdk package      | remix-kinde-error-demo       |
 
 This is a guide for starting the error demo project.
 
