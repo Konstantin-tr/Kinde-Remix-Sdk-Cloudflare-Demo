@@ -15,7 +15,7 @@ This is a guide for starting the error demo project.
 
 ### Setup
 
-The following steps are necessary to setup the demo.
+The following steps are necessary to setup the demo:
 
 1. Install packages with `npm i`
 2. Add kinde ENV vars to `.dev.vars` (secrets) or `wrangler.toml` (regular variables) file
@@ -56,7 +56,7 @@ This is a guide for starting the working demo project using the custom sdk packa
 
 ### Setup
 
-The following steps are necessary to setup the demo.
+The following steps are necessary to setup the demo:
 
 1. Install packages with `npm i`
 2. Add kinde ENV vars to `.dev.vars` (secrets) or `wrangler.toml` (regular variables) file
