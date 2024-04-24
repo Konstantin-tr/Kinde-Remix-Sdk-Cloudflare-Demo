@@ -9,7 +9,7 @@ Both demos assume that you have a kinde account + business setup with correct al
 ## Guide - Error demo 
 | Package      | Folder |
 | ----------- | ----------- |
-| @kinde-oss/kinde-remix-sdk package      | ./remix-kinde-error-demo       |
+| @kinde-oss/kinde-remix-sdk package      | remix-kinde-error-demo       |
 
 This is a guide for starting the error demo project.
 
@@ -55,9 +55,9 @@ Because NODE.js is not supported by default, the package "remix/node" causes iss
 Instead "remix/cloudflare" can be used to avoid these compile errors.
 
 ## Guide - Working demo 
-Package: kinde-remix-cloudflare-sdk (Package fork: https://github.com/Konstantin-tr/kinde-remix-cloudflare-sdk)
-
-Folder: remix-kinde-demo-custom-package
+| Package      | Folder |
+| ----------- | ----------- |
+| [kinde-remix-cloudflare-sdk](https://github.com/Konstantin-tr/kinde-remix-cloudflare-sdk)      | remix-kinde-demo-custom-package      |
 
 This is a guide for starting the working demo project using the custom sdk package.
 
