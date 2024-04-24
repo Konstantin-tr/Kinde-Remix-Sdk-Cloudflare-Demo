@@ -44,8 +44,8 @@ The following steps show the behavior in preview mode (compiled and running on l
 Result:
 - The remix-site will build but the CF worker will not compile.
 - The crypto and steam package will not be found because CF workers by default do not use NODE.js as the runtime (There is a workaround but it requires extra configuration).
-- Because NODE.js is not supported by default, the package "remix/node" causes issues.
-- Instead "remix/cloudflare" can be used to avoid these compile errors.
+- Because NODE.js is not supported by default, the package "remix-run/node" causes issues.
+- Instead "remix-run/cloudflare" can be used to avoid these compile errors.
 
 ## Guide - Working demo 
 | Package      | Folder |
