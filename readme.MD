@@ -9,7 +9,7 @@ Both demos assume that you have a kinde account + business setup with correct al
 ## Guide - Error demo 
 | Package      | Folder |
 | ----------- | ----------- |
-| @kinde-oss/kinde-remix-sdk package      | remix-kinde-error-demo       |
+| @kinde-oss/kinde-remix-sdk package      | ./remix-kinde-error-demo       |
 
 This is a guide for starting the error demo project.
 
